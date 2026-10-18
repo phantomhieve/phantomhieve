@@ -3,13 +3,13 @@
 </p>
 
 <p align="center">
-  <a href="mailto:khetanatulz@gmail.com"><img src="https://img.shields.io/badge/khetanatulz%40gmail.com-161b22?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=0d1117" alt="Email" /></a>
+  <a href="mailto:khetanatulz@gmail.com"><img src="https://img.shields.io/badge/Email-khetanatulz%40gmail.com-161b22?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=0d1117" alt="Email" /></a>
   &nbsp;
-  <a href="https://linkedin.com/in/atul-khetan"><img src="https://img.shields.io/badge/linkedin.com%2Fin%2Fatul--khetan-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=0d1117" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/atul-khetan" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-in%2Fatul--khetan-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=0d1117" alt="LinkedIn" /></a>
   &nbsp;
-  <a href="https://phantomhieve.github.io/profile/"><img src="https://img.shields.io/badge/phantomhieve.github.io-161b22?style=flat-square&logo=safari&logoColor=58a6ff&labelColor=0d1117" alt="Portfolio" /></a>
+  <a href="https://phantomhieve.github.io/profile/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-phantomhieve.github.io-161b22?style=flat-square&logo=safari&logoColor=58a6ff&labelColor=0d1117" alt="Portfolio" /></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/GCP_Professional_Cloud_Architect-161b22?style=flat-square&logo=googlecloud&logoColor=4285F4&labelColor=0d1117" alt="GCP Architect" />
+  <a href="https://cloud.google.com/certification" target="_blank"><img src="https://img.shields.io/badge/Certified-GCP_Professional_Cloud_Architect-161b22?style=flat-square&logo=googlecloud&logoColor=4285F4&labelColor=0d1117" alt="GCP Architect" /></a>
 </p>
 
 I design and operate large-scale infrastructure across public cloud (**AWS, GCP, Azure**) and physical **colocation data centers**. Over the past 7+ years, my focus has been on fleet observability, zero-trust networking, GitOps delivery, and cloud FinOps—scaling systems from bare-metal racks and tethered mobile device fleets to multi-region Kubernetes platforms.
@@ -18,7 +18,15 @@ Outside of work, I run a **self-hosted Linux homelab** (`phantomhive` server) wi
 
 ---
 
-### 🏛️ Production Track Record
+### Homelab Telemetry & SRE Cockpit
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/phantomhieve/phantomhieve/main/assets/homelab-hud.svg" width="100%" alt="Homelab Telemetry HUD" />
+</p>
+
+---
+
+### Production Experience
 
 <table>
   <tr>
@@ -28,9 +36,8 @@ Outside of work, I run a **self-hosted Linux homelab** (`phantomhive` server) wi
       <sub>Jan 2026 – Present · Hyderabad</sub>
     </td>
     <td width="72%" valign="top">
-      • <b>Fleet Observability:</b> Re-architected telemetry for <b>1,240+ bare-metal hosts</b> across 7 labs &amp; 3 data centers using pull-based Prometheus federated into M3 over a 4-pod mTLS proxy tier (<b>100% reporting, &gt;99% scrape success</b>).<br/>
-      • <b>Zero-Touch Colo Expansion:</b> Onboarded <b>3 colocation data centers</b> with per-site control planes, rack/subnet auto-discovery, Pomerium zero-trust access, and NetBox DCIM.<br/>
-      • <b>Fleet &amp; Tooling Scale:</b> Operated a <b>2,000+ Mac mini fleet</b> backing <b>6,000+ tethered iOS/Android devices</b> (cutting unresponsive devices 60%) &amp; KVM-backed x86 Android hosts; built the <b>DeviceLab CLI</b> and a 3-tier multi-NIC rsync fabric cutting 10 GB rollouts across 100 hosts from <b>2–3 days to &lt;4 hours</b>.
+      • <b>Colocation &amp; Bare-Metal Architecture:</b> Architected infrastructure and telemetry across <b>3 colocation data centers and 1,240+ bare-metal hosts</b>, delivering zero-touch site onboarding, rack discovery, and high-fidelity federated observability (&gt;99% scrape reliability).<br/>
+      • <b>Fleet Scale &amp; Automation:</b> Scaled platforms supporting a <b>2,000+ host fleet and 6,000+ mobile devices</b>; engineered high-throughput deployment fabrics that cut fleet-wide rollout times from <b>days to &lt;4 hours</b>.
     </td>
   </tr>
   <tr>
@@ -40,9 +47,8 @@ Outside of work, I run a **self-hosted Linux homelab** (`phantomhive` server) wi
       <sub>Mar 2025 – Dec 2025 · India</sub>
     </td>
     <td valign="top">
-      • Led platform reliability and security standards for <b>100+ CXM SaaS microservices at 99.99% uptime</b>.<br/>
-      • Re-architected multi-region <b>EKS</b> &amp; <b>Kafka (KRaft)</b> on an <b>ArgoCD GitOps</b> canary/blue-green model, cutting rollback incidents <b>70%</b>.<br/>
-      • Owned SLO alerting across Prometheus, Grafana, Loki &amp; Tempo (<b>-45% MTTR, -60% alert noise</b>) and delivered <b>~25% AWS cost savings</b> via FinOps right-sizing.
+      • <b>Platform Reliability &amp; GitOps:</b> Owned availability and reliability standards for <b>100+ CXM SaaS microservices at 99.99% uptime</b>; led the migration of multi-region Kubernetes and Kafka architectures to a GitOps model, reducing rollback incidents by <b>70%</b>.<br/>
+      • <b>Observability &amp; FinOps:</b> Standardized enterprise SLI/SLO monitoring (cutting MTTR by <b>45%</b> and alert noise by <b>60%</b>) while delivering <b>~25% cloud infrastructure cost savings</b> through workload right-sizing.
     </td>
   </tr>
   <tr>
@@ -52,46 +58,50 @@ Outside of work, I run a **self-hosted Linux homelab** (`phantomhive` server) wi
       <sub>Jul 2019 – Mar 2025 · Jaipur</sub>
     </td>
     <td valign="top">
-      • Architected multi-cloud workloads across <b>AWS, GCP, and Azure</b> to <b>FedRAMP, NIST 800-53, and PCI DSS</b> standards with zero major audit findings.<br/>
-      • Cut cloud spend <b>~40% (~$500K/yr)</b> via Terraform autoscaling &amp; spot orchestration; optimized AI/ML serving on <b>KServe &amp; Knative</b> (<b>-30% peak latency</b>) and reduced DR <b>RTO by ~50%</b>.
+      • <b>Multi-Cloud Governance &amp; Security:</b> Architected enterprise platforms across <b>AWS, GCP, and Azure</b> compliant with <b>FedRAMP, NIST 800-53, and PCI DSS</b> standards with zero major audit findings.<br/>
+      • <b>FinOps &amp; Serving Optimization:</b> Reduced cloud infrastructure spend by <b>~40% (~$500K/yr)</b> via automated elasticity, and optimized AI/ML serving performance to cut peak latency by <b>30%</b>.
     </td>
   </tr>
 </table>
 
 ---
 
-### 🖥️ Homelab, Self-Hosting & Financial Engineering
+### Homelab, Self-Hosting & Financial Engineering
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <b><a href="https://github.com/phantomhieve/finance">Vault — Personal Finance &amp; MCP Hub</a></b><br/>
       <sub><code>Django</code> · <code>ASGI MCP Server</code> · <code>WebAuthn</code> · <code>AI DAG</code></sub><br/><br/>
-      Self-hosted wealth &amp; Indian FY tax platform tracking Zerodha equities/MFs, US RSUs, EPF/NPS, real estate, and precious metals. Exposes a native <b>Model Context Protocol (<code>/mcp</code>)</b> server with OAuth 2.0 PKCE and runs a multi-stage AI DAG engine for Sec 112A / 54EC tax harvesting and portfolio stress-testing.
+      Self-hosted wealth and portfolio intelligence platform tracking multi-asset holdings (equities, mutual funds, US RSUs, and real estate). Exposes a native <b>Model Context Protocol (<code>/mcp</code>)</b> server with OAuth 2.0 PKCE and an AI DAG engine for portfolio analytics and stress-testing.
     </td>
     <td width="50%" valign="top">
       <b><a href="https://github.com/phantomhieve/kites-portfolio-automate">Kites Automate — Brokerage Sync Daemon</a></b><br/>
       <sub><code>Python 3.13</code> · <code>Headless Chromium</code> · <code>Prometheus</code></sub><br/><br/>
-      Unattended multi-account Zerodha Kite daemon running on my home Ubuntu server. Performs hands-free session renewal via <code>Xvfb</code> + automated TOTP injection, syncs cross-account holdings to Google Sheets with quota-aware state caching, and exports health metrics to Prometheus <code>node_exporter</code>.
+      Unattended multi-account Zerodha Kite automation daemon operating on a self-hosted Linux server. Automates headless session renewals via TOTP injection, syncs cross-account holdings to Google Sheets, and exports telemetry to Prometheus.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <b><a href="https://github.com/phantomhieve/cashcenter">CashCenter — Wholesale Ledger &amp; AI DAG</a></b><br/>
       <sub><code>Django</code> · <code>PostgreSQL</code> · <code>Gemini DAG</code> · <code>Systemd CI/CD</code></sub><br/><br/>
-      Operational double-entry accounting and 5-node AI market intelligence pipeline built for wholesale textile merchants. Generates bilingual (<b>English / हिन्दी</b>) working-capital &amp; turnaround briefs, deployed via automated GitHub Actions over SSH/rsync.
+      Operational double-entry accounting platform and 5-node AI market intelligence pipeline built for wholesale merchants. Generates automated bilingual (<b>English / हिन्दी</b>) working-capital and turnaround briefs, deployed via automated CI/CD over SSH.
     </td>
     <td width="50%" valign="top">
       <b><a href="https://github.com/phantomhieve/family-tree">Family Tree — Lineage Visualizer</a></b><br/>
       <sub><code>Django</code> · <code>PostgreSQL</code> · <code>Vanilla JS</code></sub><br/><br/>
-      Interactive patrilineal family tree web application featuring custom canvas/DOM connector rendering, dark/light theme support, and dynamic relationship modals.
+      Interactive patrilineal lineage visualization web application featuring custom canvas/DOM connector rendering, dark/light theme support, and dynamic relationship modals.
     </td>
   </tr>
 </table>
 
 ---
 
-### ⚙️ Technical Architecture & Stack
+### Technical Architecture & Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,kubernetes,docker,terraform,ansible,prometheus,grafana,python,go,bash,linux,postgres,git&theme=dark" alt="Technical Arsenal" />
+</p>
 
 <table>
   <tr>
@@ -104,7 +114,7 @@ Outside of work, I run a **self-hosted Linux homelab** (`phantomhive` server) wi
   </tr>
   <tr>
     <td><b>Infrastructure as Code</b></td>
-    <td>Terraform · Ansible · Puppet · Bazel</td>
+    <td>Terraform · Ansible · Puppet · Bazel · Linux Shell Scripting</td>
   </tr>
   <tr>
     <td><b>Observability &amp; SRE</b></td>
@@ -112,10 +122,20 @@ Outside of work, I run a **self-hosted Linux homelab** (`phantomhive` server) wi
   </tr>
   <tr>
     <td><b>Security &amp; Compliance</b></td>
-    <td>Zero Trust (Pomerium) · SSH Certificate Authority · PKI/mTLS · HashiCorp Vault · Keycloak (OIDC/SSO) · IRSA · FedRAMP · NIST 800-53 · PCI DSS · SOC 2 · ISO 27001</td>
+    <td>Zero Trust (Cloudflare Zero Trust) · SSH Certificate Authority · PKI/mTLS · HashiCorp Vault · Keycloak (OIDC/SSO) · IRSA · FedRAMP · NIST 800-53 · PCI DSS · SOC 2 · ISO 27001</td>
   </tr>
   <tr>
-    <td><b>Languages &amp; Education</b></td>
-    <td><b>Python · Go · Bash · SQL · YAML</b> &nbsp;|&nbsp; <i>B.Tech CSE, Amity University (2015–2019) · GCP Professional Cloud Architect &amp; Associate Cloud Engineer</i></td>
+    <td><b>Languages &amp; Systems</b></td>
+    <td><b>Python 3.13 · Go · Bash · SQL · Django ASGI · FastAPI · YAML</b></td>
+  </tr>
+  <tr>
+    <td><b>Education &amp; Credentials</b></td>
+    <td><b>B.Tech in Computer Science &amp; Engineering</b>, Amity University (2015–2019)<br/><b>Google Cloud Certified:</b> Professional Cloud Architect · Associate Cloud Engineer</td>
   </tr>
 </table>
+
+---
+
+<p align="center">
+  <sub><b>Crafted with Infrastructure as Code · Powered by Linux.</b></sub>
+</p>
