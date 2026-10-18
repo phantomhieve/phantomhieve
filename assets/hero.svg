@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 215" width="100%" height="215" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="920" y2="215" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#111823"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="920" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="45%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#a371f7"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#21262d" stroke-width="0.6" stroke-opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Card -->
+  <rect width="920" height="215" rx="12" fill="url(#bg)"/>
+  <rect width="920" height="215" rx="12" fill="url(#grid)"/>
+  <rect x="0.75" y="0.75" width="918.5" height="213.5" rx="11.25" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Top Accent Line -->
+  <path d="M 12 1.25 L 908 1.25" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Status Pill -->
+  <rect x="36" y="26" width="318" height="24" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle cx="50" cy="38" r="4" fill="#3fb950"/>
+  <text x="62" y="42" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.4">SENIOR CLOUD ENGINEER (L5) · UBER · HYDERABAD</text>
+
+  <!-- Right Terminal Host Tag -->
+  <rect x="706" y="26" width="178" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="720" y="42" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="500">atul@phantomhive:~$</text>
+
+  <!-- Main Name & Headline -->
+  <text x="36" y="88" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="-0.5">Atul Kumar Khetan</text>
+  <text x="36" y="114" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400">Architecting public cloud platforms, bare-metal colocation data centers, and zero-trust observability at scale.</text>
+
+  <!-- 4 Metric Bento Pills -->
+  <!-- Card 1 -->
+  <rect x="36" y="136" width="200" height="56" rx="8" fill="#161b22" fill-opacity="0.9" stroke="#30363d" stroke-width="1"/>
+  <text x="50" y="160" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700">2,000+ Hosts</text>
+  <text x="50" y="179" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5">6,000+ Devices · 3 Colo DCs</text>
+
+  <!-- Card 2 -->
+  <rect x="250" y="136" width="200" height="56" rx="8" fill="#161b22" fill-opacity="0.9" stroke="#30363d" stroke-width="1"/>
+  <text x="264" y="160" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700">99.99% SLA</text>
+  <text x="264" y="179" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5">100+ Multi-Region EKS Services</text>
+
+  <!-- Card 3 -->
+  <rect x="464" y="136" width="200" height="56" rx="8" fill="#161b22" fill-opacity="0.9" stroke="#30363d" stroke-width="1"/>
+  <text x="478" y="160" fill="#d2a8ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700">~$500K / yr</text>
+  <text x="478" y="179" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5">~40% Cloud FinOps Savings</text>
+
+  <!-- Card 4 -->
+  <rect x="678" y="136" width="206" height="56" rx="8" fill="#161b22" fill-opacity="0.9" stroke="#30363d" stroke-width="1"/>
+  <text x="692" y="160" fill="#ffa657" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700">Zero-Trust &amp; IaC</text>
+  <text x="692" y="179" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5">FedRAMP · PCI DSS · SOC 2</text>
+</svg>
