@@ -1,65 +1,46 @@
-<div align="center">
+## Atul Kumar Khetan
 
-# Atul Kumar Khetan
-### Senior Cloud Engineer @ Uber | Cloud & Data Center Infrastructure | Kubernetes • Terraform • Observability
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-atul--khetan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/atul-khetan)
-[![Email](https://img.shields.io/badge/Email-khetanatulz%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khetanatulz@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-phantomhieve.github.io-181717?style=for-the-badge&logo=github&logoColor=white)](https://phantomhieve.github.io/profile/)
-[![Location](https://img.shields.io/badge/Location-Hyderabad%2C%20India-2ea44f?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
-
-</div>
+**Senior Cloud Engineer (L5) at Uber** · Cloud, Colocation Data Centers & Site Reliability  
+📍 Hyderabad, India · ✉️ [khetanatulz@gmail.com](mailto:khetanatulz@gmail.com) · 🔗 [linkedin.com/in/atul-khetan](https://linkedin.com/in/atul-khetan) · 🌐 [phantomhieve.github.io/profile](https://phantomhieve.github.io/profile/)
 
 ---
 
-### ⚡ About Me
+I design and operate large-scale infrastructure across public cloud (**AWS, GCP, Azure**) and physical **colocation data centers**. Over the past 7+ years, my work has centered on fleet observability, zero-trust infrastructure, GitOps delivery, and cloud FinOps—scaling systems from bare-metal racks and tethered device fleets to multi-region Kubernetes platforms running at `99.99%` availability.
 
-Senior Cloud Engineer with **7+ years** designing and operating large-scale infrastructure across public cloud and colocation data centers:
-- 🔭 **Currently at Uber (L5):** Owning observability, automation, and capacity for a **2,000+ host, 6,000+ device fleet** across **3 colocation data centers** & 8 physical device labs.
-- ☸️ **Cloud & Platform Engineering:** Previously led DevOps for **100+ microservices** on multi-region **EKS** & **Kafka (KRaft)** at **99.99% uptime** using GitOps (**ArgoCD**) with canary & blue-green rollouts.
-- 💰 **FinOps & Reliability:** Cut cloud spend **~40% (~$500K annually)** through Terraform-driven autoscaling, right-sizing, and spot strategies; owned SLO-based alerting and on-call across AWS, GCP, and bare-metal estates.
-- 🔒 **Security & Compliance:** Delivered **FedRAMP, NIST 800-53, PCI DSS, SOC 2, and ISO 27001** compliant platforms with Zero Trust (**Pomerium**), SSH Certificate Authorities, **PKI/mTLS**, **HashiCorp Vault**, and **OIDC/IRSA**.
+Outside of work, I run a self-hosted Linux homelab (`phantomhive` server) and build quantitative personal finance tools, multi-account brokerage automation, and operational intelligence systems.
 
----
+### Systems at Scale
 
-### 🛠️ Technical Stack
+```text
+  [ Uber · 2026–Present ]     2,000+ hosts & 6,000+ tethered devices across 3 colocation data centers & 8 labs
+                              100% fleet observability (Prometheus -> mTLS -> M3) · <4h 10GB cascade rollouts
 
-| Category | Technologies & Tools |
-| :--- | :--- |
-| **Cloud Platforms** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) (EKS, EC2, S3, IAM, VPC, Direct Connect, Secrets Manager) • ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white) (GKE, Cloud SQL, Memorystore, Cloud Armor, GCS) • ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) |
-| **Containers & Orchestration** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) GitOps • KServe • Knative • KVM • ![Apache Kafka](https://img.shields.io/badge/Kafka_(KRaft)-231F20?style=flat-square&logo=apachekafka&logoColor=white) |
-| **Infrastructure as Code (IaC)** | ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Puppet](https://img.shields.io/badge/Puppet-FFAE1A?style=flat-square&logo=puppet&logoColor=black) ![Bazel](https://img.shields.io/badge/Bazel-43A047?style=flat-square&logo=bazel&logoColor=white) |
-| **CI/CD & Progressive Delivery** | ![Buildkite](https://img.shields.io/badge/Buildkite-14CC80?style=flat-square&logo=buildkite&logoColor=black) ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) • Azure DevOps • Canary & Blue-Green Deployments |
-| **Observability & SRE** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) • M3 • Loki • Tempo • Alertmanager • ![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=flat-square&logo=pagerduty&logoColor=white) • PromQL • SLI/SLO • DR (RTO/RPO) |
-| **Data Center & Networking** | Colocation • Bare-Metal Provisioning • Capacity Planning • NetBox (DCIM) • Rack & Site Topology • VPC/Subnet Design • Multi-NIC Routing • VPN |
-| **Security & Compliance** | Zero Trust (Pomerium) • SSH Certificate Authority • PKI/mTLS • ![Vault](https://img.shields.io/badge/HashiCorp_Vault-000000?style=flat-square&logo=vault&logoColor=white) • Keycloak (OIDC/SSO) • IRSA • FedRAMP • PCI DSS • SOC 2 • ISO 27001 |
-| **Languages & Operating Systems** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) • SQL • YAML • ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) (Ubuntu, Debian, RHEL) • ![macOS](https://img.shields.io/badge/macOS_Fleet-000000?style=flat-square&logo=apple&logoColor=white) (launchd, MDM) |
+  [ Sprinklr · 2025 ]         100+ CXM microservices on multi-region EKS & Kafka (KRaft) at 99.99% uptime
+                              ArgoCD GitOps canary/blue-green delivery (-70% rollbacks, -45% MTTR, -25% AWS spend)
 
----
+  [ MavQ / MTX · 2019–2025 ]  FedRAMP, NIST 800-53 & PCI DSS multi-cloud estates across AWS, GCP & Azure
+                              ~$500K/yr (~40%) cloud cost reduction · KServe/Knative ML serving (-30% peak latency)
+```
 
-### 💼 Experience Highlights
+### Personal Engineering, Homelab & Finance Systems
 
-#### **Senior Cloud Engineer (L5)** — **Uber Technologies Inc.** *(Jan 2026 – Present | Hyderabad, India)*
-- **Fleet Observability at Scale:** Re-architected observability for **1,240+ bare-metal hosts** across 7 labs and 3 data centers, replacing per-host push scripts with pull-based Prometheus federated into M3 through a 4-pod mTLS proxy tier — reaching **100% fleet reporting at >99% scrape success**.
-- **Zero-Touch Colo Expansion:** Expanded the physical device-lab estate into **3 new colocation data centers** with per-site Prometheus/Grafana control planes, rack/subnet-aware auto-discovery, Pomerium zero-trust access, and NetBox DCIM.
-- **High-Speed Distribution & CLI Tooling:** Built the **DeviceLab CLI (Python)** for discovery of 2,000+ hosts in <3 minutes and parallel execution across 500 nodes in <60s over Pomerium-proxied SSH; designed a 3-tier cascade rsync fabric with multi-NIC routing cutting 10 GB toolchain rollouts across 100 hosts from **2–3 days to <4 hours unattended**.
-- **Fleet Reliability & KVM Virtualization:** Operated a **2,000+ Mac mini fleet** backing **6,000+ tethered iOS/Android devices** (migrating 1,008/1,009 nodes with zero CI downtime and cutting unresponsive devices by **60%**); scaled CI capacity onto x86 KVM-backed Android emulator hosts via an idempotent 10-stage bootstrap.
+When I'm not operating data center fleets at work, I enjoy self-hosting bare-metal Linux infrastructure at home—wired up with `systemd` services, `rsync`/SSH deployment pipelines, Prometheus `node_exporter` textfile collectors, and Grafana alerting—to run personal financial and operational workloads:
 
-#### **Lead DevOps Engineer** — **Sprinklr** *(Mar 2025 – Dec 2025 | India)*
-- Led DevOps across multiple CXM SaaS product lines running **100+ services at 99.99% uptime**.
-- Re-architected multi-region **EKS** and **Kafka (KRaft)** clusters on an **ArgoCD GitOps** model with canary and blue-green rollouts, cutting rollback incidents by **70%**.
-- Owned SLO-based alerting and on-call across Prometheus, Grafana, Loki, and Tempo, reducing **MTTR by 45%** and **alert noise by 60%**, while delivering **~25% AWS cost reduction** via FinOps dashboards and right-sizing.
+* **[finance](https://github.com/phantomhieve/finance) (Vault)** — Self-hosted personal finance & multi-asset portfolio platform tailored for the Indian financial ecosystem (Zerodha equities/MFs, US RSUs, EPF/NPS, real estate, and precious metals). Built on an ASGI dual-architecture (Django + native **Model Context Protocol `/mcp` server** with OAuth 2.0 PKCE), WebAuthn (Face ID/Touch ID) security, and a multi-stage **AI DAG engine** for FY tax harvesting (Sec 112A / 54EC) and portfolio stress-testing.
+* **[kites-portfolio-automate](https://github.com/phantomhieve/kites-portfolio-automate)** — Unattended multi-account Zerodha Kite portfolio sync engine running on my home Ubuntu server. Uses headless Chromium (`Xvfb`) with automated TOTP injection and local OAuth callback interception to renew sessions hands-free, syncs cross-account holdings to Google Sheets with quota-aware state caching, and exports health telemetry to Prometheus.
+* **[cashcenter](https://github.com/phantomhieve/cashcenter)** — Wholesale textile ledger and operational intelligence system built for merchant operations in North Bihar. Combines multi-year double-entry accounting with a 5-node AI DAG pipeline producing bilingual (**English / हिन्दी**) working-capital and turnaround briefs, deployed via automated GitHub Actions + SSH/systemd pipelines.
+* **[family-tree](https://github.com/phantomhieve/family-tree)** — Interactive lineage visualization app built with Django, PostgreSQL, and vanilla JavaScript.
 
-#### **Senior DevOps Engineer** — **MavQ Inc. (formerly MTX Group)** *(Jul 2019 – Mar 2025 | Jaipur, India)*
-- Architected compliant multi-cloud workloads across **AWS, GCP, and Azure** to **FedRAMP, NIST 800-53, and PCI DSS** controls with zero major audit findings.
-- Cut cloud spend **~40% (~$500K annually)** through Terraform-driven autoscaling, spot instance strategy, and continuous right-sizing.
-- Re-engineered CI/CD for 40+ microservices (cutting deployment time **40%**), optimized AI/ML serving on **KServe & Knative** (cutting peak response time **30%**), and reduced **RTO by ~50%** with automated cross-region DR drills.
+### Core Domains & Tooling
 
----
+* **Cloud & Bare-Metal Estates:** AWS (EKS, EC2, VPC, Direct Connect, IAM), GCP (GKE, Cloud SQL, Cloud Armor), Azure, Colocation DCIM (NetBox), Rack/Subnet Auto-Discovery, KVM Virtualization, macOS & Linux Fleet Management
+* **Orchestration & Delivery:** Kubernetes, Helm, ArgoCD (GitOps, Canary/Blue-Green), Apache Kafka (KRaft), KServe, Knative, Buildkite, GitHub Actions, GitLab CI
+* **Infrastructure as Code:** Terraform, Ansible, Puppet, Bazel
+* **Observability & SRE:** Prometheus, M3, Grafana, Loki, Tempo, Alertmanager, PagerDuty, PromQL, SLI/SLO Governance, Disaster Recovery
+* **Security & Compliance:** Pomerium (Zero Trust), SSH Certificate Authorities, PKI/mTLS, HashiCorp Vault, Keycloak (OIDC/SSO), FedRAMP, PCI DSS, SOC 2, ISO 27001
+* **Languages:** Python, Go, Bash, SQL
 
-### 🏆 Certifications & Recognition
+### Credentials
 
-- 🎖️ **Google Cloud Certified — Professional Cloud Architect**
-- 🎖️ **Google Cloud Certified — Associate Cloud Engineer**
-- 🌟 **Awards:** Employee of the Year (2020) • Above & Beyond Award (2021, 2022) • Employee of the Month (2023)
-- 🎓 **Education:** B.Tech in Computer Science Engineering — Amity University, Jaipur (2015 – 2019)
+* **Certifications:** Google Cloud Certified — Professional Cloud Architect · Associate Cloud Engineer
+* **Education:** B.Tech in Computer Science Engineering, Amity University, Jaipur (2015 – 2019)
